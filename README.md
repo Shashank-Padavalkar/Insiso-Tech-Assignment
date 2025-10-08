@@ -55,13 +55,16 @@ All visual performance plots are available under [`results/`](./results):
 
 ## Validation Metrics
 
-| Metric                     | Value  | Figure |
-|----------------------------|--------|--------|
-| **Precision (P)**          | 0.884  | ![Precision Curve](BoxP_curve.png) |
-| **Recall (R)**             | 0.799  | ![Recall Curve](BoxR_curve.png) |
-| **F1 Score**               | 0.839  | ![F1 Curve](BoxF1_curve.png) |
-| **mAP@0.5**                | 0.896  | ![mAP50 Curve](BoxmAP50_curve.png) |
-| **mAP@0.5:0.95**           | 0.664  | ![mAP50-95 Curve](BoxmAP5095_curve.png) |
+## Validation Metrics and Plots
+
+| Metric / Curve             | Description                         | Figure |
+|----------------------------|-------------------------------------|--------|
+| **Precision (P)**          | Model precision across thresholds    | ![Precision Curve](metrics/BoxP_curve.png) |
+| **Recall (R)**             | Model recall across thresholds       | ![Recall Curve](metrics/BoxR_curve.png) |
+| **Precision-Recall (PR)**  | Combined precision-recall behavior   | ![PR Curve](metrics/BoxPR_curve.png) |
+| **F1 Score**               | F1 score across thresholds           | ![F1 Curve](metrics/BoxF1_curve.png) |
+| **Confusion Matrix**       | True vs predicted class comparison   | ![Confusion Matrix](metrics/confusion_matrix.png) |
+
 
 
 
