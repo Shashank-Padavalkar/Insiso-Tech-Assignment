@@ -25,6 +25,32 @@ The project emphasizes **computational efficiency, real-time inference**, and **
 
 ---
 
+## Dataset Details
+
+This project uses a **Roboflow Universe dataset** containing images of cars and persons.  
+
+- **Dataset Link:** [Car-Person Dataset on Roboflow Universe](https://universe.roboflow.com/duy-tan/car-person-tviqw/dataset/6)  
+- **Total Images:** 515  
+  - **Training Images:** 354  
+  - **Validation Images:** 99  
+  - **Test Images:** 62
+    
+---
+
+
+## YOLOv8 Training Details
+
+| Parameter            | Value |
+|----------------------|-------|
+| **Epochs**           | 30 |
+| **Image Size**       | 640 × 640 |
+| **Batch Size**       | 8 |
+| **Optimizer**        | Adam |
+| **Learning Rate**    | 0.001 (initial), 0.01 (final) |
+| **Data Augmentation**| Enabled |
+
+---
+
 ##  Model Information  
 
 | Model Type | File Name | Size (MB) | Description |
@@ -51,8 +77,6 @@ The project emphasizes **computational efficiency, real-time inference**, and **
 
 ---
 
-##  Training Visualizations  
-All visual performance plots are available under [`results/`](./results):
 
 ## Validation Metrics
 
@@ -65,6 +89,21 @@ All visual performance plots are available under [`results/`](./results):
 | **Precision-Recall (PR)**  | Combined precision-recall behavior   | ![PR Curve](metrics/BoxPR_curve.png) |
 | **F1 Score**               | F1 score across thresholds           | ![F1 Curve](metrics/BoxF1_curve.png) |
 | **Confusion Matrix**       | True vs predicted class comparison   | ![Confusion Matrix](metrics/confusion_matrix.png) |
+
+
+---
+
+##  Results  
+
+### YOLO Object Detection
+The YOLOv8n model outputs bounding boxes for cars and persons on the test images. Sample results are available in the `results/` folder.  
+
+ **Full YOLO Detection Results:** [Drive Folder Link](https://drive.google.com/drive/folders/1gzNjQhYQSOPThAdIPq23AtxeERqVYA7M?usp=sharing)
+
+### Lane Detection
+Lane detection results were generated using the Canny + Hough transform pipeline. Sample outputs are stored in the `results/` folder as images with detected lane lines.  
+
+ **Full Lane Detection Results:** [Drive Folder Link](https://drive.google.com/drive/folders/1PZhlPxTXV_OMU1IUESQkh3PdSKOLOMu-?usp=sharing)
 
 
 
