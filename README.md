@@ -49,6 +49,8 @@ This project uses a **Roboflow Universe dataset** containing images of cars and 
 | **Learning Rate**    | 0.001 (initial), 0.01 (final) |
 | **Data Augmentation**| Enabled |
 
+>The model has been trained in Google Colab using the T4 GPU
+
 ---
 
 ##  Model Information  
