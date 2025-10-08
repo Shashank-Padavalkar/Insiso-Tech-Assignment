@@ -101,7 +101,7 @@ The YOLOv8n model outputs bounding boxes for cars and persons on the test images
  **Full YOLO Detection Results:** [Drive Folder Link](https://drive.google.com/drive/folders/1gzNjQhYQSOPThAdIPq23AtxeERqVYA7M?usp=sharing)
 
 ### Lane Detection
-Lane detection results were generated using the Canny + Hough transform pipeline. Sample outputs are stored in the `results/` folder as images with detected lane lines.  
+Lane detection results were generated using the Canny + Hough transform pipeline. Sample outputs are stored in the `results` folder as images with detected lane lines.  
 
  **Full Lane Detection Results:** [Drive Folder Link](https://drive.google.com/drive/folders/1PZhlPxTXV_OMU1IUESQkh3PdSKOLOMu-?usp=sharing)
 
