@@ -96,7 +96,7 @@ This project uses a **Roboflow Universe dataset** containing images of cars and 
 ##  Results  
 
 ### YOLO Object Detection
-The YOLOv8n model outputs bounding boxes for cars and persons on the test images. Sample results are available in the `/results` folder.  
+The YOLOv8n model outputs bounding boxes for cars and persons on the test images. Sample results are available in the `results` folder.  
 
  **Full YOLO Detection Results:** [Drive Folder Link](https://drive.google.com/drive/folders/1gzNjQhYQSOPThAdIPq23AtxeERqVYA7M?usp=sharing)
 
