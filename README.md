@@ -43,7 +43,8 @@ The project emphasizes **computational efficiency, real-time inference**, and **
 | **Precision** | 0.8843 | Ratio of true positives over all detections |
 | **Recall** | 0.7986 | Detection completeness |
 | **F1-Score** | 0.839 | Harmonic mean of Precision and Recall |
-| **FPS (CPU)** | 18.2 | Frames processed per second on CPU |
+| **FPS (CPU) for YOLO** | 58.50 | Frames processed per second on CPU |
+| **FPS (CPU) for ONNX** | 7.57 | Frames processed per second on CPU |
 | **False Positives During Testing** | 48 detections | Evaluated on unseen validation set |
 
 > These metrics were computed using the YOLO evaluation framework and validated against the ground-truth annotations in the test split.
