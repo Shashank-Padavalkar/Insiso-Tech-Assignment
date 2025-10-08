@@ -57,11 +57,11 @@ All visual performance plots are available under [`results/`](./results):
 
 | Metric                     | Value  | Figure |
 |----------------------------|--------|--------|
-| **Precision (P)**          | 0.884  | ![Precision Curve](runs/yolov8n_adas_val/BoxP_curve.png) |
-| **Recall (R)**             | 0.799  | ![Recall Curve](runs/yolov8n_adas_val/BoxR_curve.png) |
-| **F1 Score**               | 0.839  | ![F1 Curve](runs/yolov8n_adas_val/BoxF1_curve.png) |
-| **mAP@0.5**                | 0.896  | ![mAP50 Curve](runs/yolov8n_adas_val/BoxmAP50_curve.png) |
-| **mAP@0.5:0.95**           | 0.664  | ![mAP50-95 Curve](runs/yolov8n_adas_val/BoxmAP5095_curve.png) |
+| **Precision (P)**          | 0.884  | ![Precision Curve](BoxP_curve.png) |
+| **Recall (R)**             | 0.799  | ![Recall Curve](BoxR_curve.png) |
+| **F1 Score**               | 0.839  | ![F1 Curve](BoxF1_curve.png) |
+| **mAP@0.5**                | 0.896  | ![mAP50 Curve](BoxmAP50_curve.png) |
+| **mAP@0.5:0.95**           | 0.664  | ![mAP50-95 Curve](BoxmAP5095_curve.png) |
 
 
 
