@@ -1,6 +1,6 @@
 # Advanced Driver Assistance System (ADAS) — Tiny Object Detection & Lane Detection  
 **Track A Submission | Tiny Detector + Lane Detection Baseline**  
-**Author:** Shashank  
+**Author:** Shashank Padavalkar
 
 ---
 
